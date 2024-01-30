@@ -1,0 +1,39 @@
+html{
+    Background-color: palegreen;
+}
+p{
+   color: black;
+   font-size: 18px;
+   border: 2px dashed;
+   background-color: beige;
+   
+}
+
+h1{
+    color:brown;
+    text-decoration: underline; 
+}
+ol{
+    color:rebeccapurple;
+    font-kerning: normal;
+    font-size: larger;
+    list-style: disc;
+    
+}
+ul{
+    color: black;
+    text-decoration:underline;
+text-transform: lowercase;
+}
+h3{
+color: purple;
+line-height: 0cap;
+padding: 25px;
+}
+h2{
+    color:purple;
+    
+}
+img{
+    margin-inline-start: 300px;
+}
