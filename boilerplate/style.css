@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box; 
+}
+img{
+    max-width:100%;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.square{
+    background-color:bisque;
+    width:200px;
+    height:200px;
+}

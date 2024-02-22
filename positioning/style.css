@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box; 
+}
+img{
+    max-width:100%;
+}
+
+body{
+    background-color: darkseagreen;
+}
+p{
+    background-color:lightblue;
+    padding:10px;
+    font-size:30px;
+
+}
+.more-specific{
+    background-color:darkkhaki;
+    padding:20px;
+}
+p{
+    background-color:pink;
+}
+
+#even-more-specific{
+    background-color: honeydew;
+}
+
+.square{
+    background-color:honeydew;
+    width:200px;
+    height:200px;
+    border:1px solid darkblue;
+    margin:20px 0px;
+}
+.relative{
+    background-color:burlywood; 
+    position:relative;
+    bottom:-40px;
+    right:-40px;
+}
+.fixed{
+    background-color:pink;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0;
+}
