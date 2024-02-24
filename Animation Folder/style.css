@@ -82,3 +82,20 @@ body{
         transform: rotate(360deg);
     }
 }
+.mover{
+    background-color: fuchsia;
+    width:20vw;
+    height:4vw;
+    position: fixed;
+    bottom:0;
+    left:0;
+    animation: move 3s infinite ;
+}
+@keyframes move{
+    0%{
+        transform: translateX(-20vw);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}

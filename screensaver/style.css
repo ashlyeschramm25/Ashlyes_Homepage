@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box; 
+}
+img{
+    max-width:100%;
+}
+
+body{
+    background-color: navy;
+    margin:0;
+    animation: back 4s infinite alternate;
+}
+@keyframes back{
+    0%{
+        background-color:darkblue;
+    }
+    75%{
+        background-color:black;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+.cloud{
+    Display:flex;
+    Align-items: center;
+    justify-content: first baseline;
+    justify-content:center;
+   
+}
+@keyframes color{
+    0%{
+        background-color: grey; 
+        transform: scale(1.5);
+    }
+    100%{
+        background-color: darkgray;
+        transform: scale(2.5);
+    }
+}
+
+.cloud1{
+    transform: translateX(150px);
+    background-color: grey;
+    width: 150px;;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+    
+}
+.cloud2{
+    transform: translateX(100px);
+    background-color: grey;
+    width: 150px;
+    height:150px;
+    border-radius: 100%;
+    animation: color 3s infinite alternate;
+}
+
+.cloud3{
+    transform: translateX(50px);
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    animation: color 3s infinite alternate;
+}
+
+.cloud4{
+    
+    background-color:grey;
+    width: 150px;
+    height: 150px;
+    border-radius:100%; 
+    animation: color 3s infinite alternate;
+}
+.cloud5{
+    transform: translate(-50px);
+    background-color:grey;
+    width: 150px;
+    height:150px;
+    border-radius: 100%;
+    animation: color 3s infinite alternate;
+}
+.cloud6{
+    transform: translate(-150px);
+    background-color: grey;
+    width: 150px;;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+}
+.cloud7{
+    transform: translate(-150px);
+    background-color: grey;
+    width: 150px;;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+}
+.cloud8{
+    transform: translate(-150px);
+    background-color: grey;
+    width: 150px;;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+}
+.cloud9{
+    transform: translate(-150px);
+    background-color: grey;
+    width: 150px;;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+}
+.cloud10{
+    transform: translate(-150px);
+    background-color: grey;
+    width: 150px;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+}
+.cloud11{
+    transform: translate(-150px);
+    background-color: grey;
+    width: 150px;;
+    height:150px;
+    border-radius: 100%; 
+    animation: color 3s infinite alternate;
+}
+
+
+
+
+
+
+
+
+.rain{
+ display: flex;
+align-items: center;
+justify-items: center;
+    justify-content: space-evenly;
+   
+}
+.rain1{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1s infinite;
+} 
+.rain2{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.1s infinite;
+}
+.rain3{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.2s infinite;
+}
+.rain4{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.3s infinite;
+}
+.rain5{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.4s infinite;
+}
+.rain6{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.5s infinite;
+}
+@keyframes drop{
+    0%{
+        transform: translateY(5vw)
+    }
+    100%{
+        transform: translateY(100vw)
+    }
+    
+}
+.droplets{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.rain7{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.6s infinite;
+}
+.rain8{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.7s infinite;
+}
+.rain9{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.8s infinite;
+}
+.rain10{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 1.9s infinite;
+}
+.rain11{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2s infinite;
+}
+.rain12{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.1s infinite;
+}
+.rain13{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.2s infinite;
+}
+.rain14{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.3s infinite;
+}
+.rain15{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.4s infinite;
+}
+.rain16{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.5s infinite;
+}
+.rain17{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.6s infinite;
+}
+.rain18{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.7s infinite;
+}
+.rain19{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.8s infinite;
+}
+.rain20{
+    background-color:lightskyblue;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    animation: drop 2.9s infinite;
+}
