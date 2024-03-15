@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:palevioletred;
+}
+img{
+    max-width: 80%;
+    max-height: 80%;
+}
+.cream{
+    display: none;
+}
+.cup{
+    display: none;
+}
+.parfait{
+    display: none;
+}
+
+
+@media screen and (max-width: 1400px){
+    body{
+        background-color:pink;
+    }
+    .cream{
+        display: block;
+        
+    }
+    .cake{
+        display: none;
+    }
+    .parfait{
+        display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: lightcoral;
+    }
+    .cream{
+        display: none;
+    }
+    .cake{
+        display: none;
+    }
+    .cup{
+        display: block;
+    }
+    .parfait{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    body{
+        background-color:blanchedalmond
+    }
+    .cream{
+        display: none;
+    }
+    .cup{
+        display: none;
+    }
+    .cake{
+        display: none;
+    }
+    .parfait{
+        display: block;
+    }
+}
