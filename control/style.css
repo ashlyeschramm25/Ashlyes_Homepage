@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box; 
+}
+img{
+    max-width:100%;
+}
+
+body{
+    background-color:bisque;
+    
+}
+
+  
+  .table {
+   
+    width: 400px;
+   height: 300px;
+   transform: translateY(325px);
+    
+}
+.shelf{
+    position:absolute;
+    display:flex;
+    justify-content:left;
+    width: 100%;
+}
+ 
+.bookcase{
+    width: 500px;
+    height: 700px;
+    
+} 
+
+.strawberry{
+    position:absolute;
+    transform: translate(200px);
+    height: 250px;
+    width:250px;
+}
+.chocolate{
+    position: absolute;
+    transform: translateY(130px);
+    height: 250px;
+    width: 250px;
+}
+.vanilla{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+.sprinkles{
+    position: absolute;
+    height: 300px;
+    width:300px;
+    transform: translateX(190px) translateY(100px);
+    
+}
+.stars{
+    position: absolute;
+    height: 300px;
+    width:300px;
+    transform:translateY(240px);
+    
+}
+.cherry{
+    position: absolute;
+    height: 150px;
+    width:150px;
+    transform:translateY(260px) translateX(270px);
+}
+.image {
+    position:absolute;
+    display:flex;
+   justify-content: center;
+    width: 100%;
+    
+  }
+.cupcake{
+    position: absolute;
+    transform: translateY(200px);
+    height: 250px;
+    width: 250px;
+}
+.nuts{
+    position: absolute;
+    height: 200px;
+    width:200px;
+    transform:translateY(380px) translateX(40px);
+}
+.draggable{
+    cursor: grab;
+}
